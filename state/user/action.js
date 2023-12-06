@@ -1,0 +1,6 @@
+const USER_ACTIONS = {
+    UPDATE_NAME: 'UPDATE_NAME',
+    UPDATE_CONTACT: 'UPDATE_CONTACT'
+}
+
+module.exports = USER_ACTIONS;
