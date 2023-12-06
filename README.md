@@ -19,6 +19,7 @@ Creates a Redux store with the specified reducer and initial state.
 
 - **Parameters**
     - `reducer`: A function that specifies how the state should change in response to an action.
+    - `initialState`: An object which determines the initial state of the store.
 - **Returns**
     - `getState`: Retrieves the current state of the store.
     - `subscribe(callback)`: Adds a change listener to the store.
