@@ -1,0 +1,22 @@
+{
+  "name": "redux-lib",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.14.0",
+    "prettier": "^3.2.5",
+    "typescript": "4.9.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
